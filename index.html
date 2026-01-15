@@ -131,9 +131,6 @@ footer { background: #06172e; color: white; text-align: center; padding: 60px 20
 </style>
 </head>
 <body data-theme="light">
-  <script async src="https://cse.google.com/cse.js?cx=1763b02da22d34163">
-</script>
-<div class="gcse-search"></div>
 
 <div class="info-bar-container">
   <div class="scrolling-text">
@@ -152,6 +149,23 @@ footer { background: #06172e; color: white; text-align: center; padding: 60px 20
     <div class="widget-item">🌡️ Assam: 22°C</div>
     <div class="widget-item">💵 USD/INR: 83.45</div>
   </div>
+  <div style="text-align: center; margin: 20px auto; max-width: 600px; padding: 0 15px; position: relative; z-index: 10;">
+    <form action="https://www.google.com/search" method="get" target="_blank" 
+          style="display: flex; background: #ffffff; border-radius: 50px; padding: 5px 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); border: 2px solid #0a2e5c;">
+        
+        <i class="fa-solid fa-magnifying-glass" style="color: #0a2e5c; align-self: center; margin-left: 10px;"></i>
+        
+        <input type="text" name="q" placeholder="ওয়েবসাইটে প্রয়োজনীয় তথ্য খুঁজুন..." 
+               style="width: 100%; border: none; padding: 12px; font-size: 16px; outline: none; background: transparent; color: #333;">
+        
+        <input type="hidden" name="as_sitesearch" value="gsc-portal.github.io/gsc/">
+        
+        <button type="submit" style="background: #0a2e5c; border: none; color: white; padding: 10px 25px; border-radius: 50px; cursor: pointer; font-weight: 700; transition: 0.3s;">
+            Search
+        </button>
+    </form>
+  </div>
+  
   <div class="cat-nav">
     <button class="cat-btn" onclick="scrollToSection('identity')">Identity</button>
     <button class="cat-btn" onclick="scrollToSection('assam')">Assam Services</button>
